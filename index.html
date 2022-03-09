@@ -9,12 +9,6 @@
 
 
 <body style="margin : 0px; overflow: hidden;">
-	<div class="controls">
-		<button id="button">Get camera</button>
-		<select id="select">
-			<option></option>
-		</select>
-	</div>
 	<a-scene embedded arjs>
 
 
@@ -27,6 +21,13 @@
 
 		<a-entity camera></a-entity>
 	</a-scene>
+
+	<div style="position: fixed; top: 20px; left: 20px; z-index: 9;" class="controls">
+		<button id="button">Get camera</button>
+		<select id="select">
+			<option></option>
+		</select>
+	</div>
 </body>
 
 <script>
